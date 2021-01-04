@@ -3,22 +3,21 @@ module.exports = {
   // Change information to your own:
   //
   // Site Info:
-  title: 'Gatsby Starter Blog Grommet v2',
-  description: 'This is a DEMO site! SSG - Gatsby JS, UI - Grommet v2',
-  siteUrl: 'https://ganevru.github.io/gatsby-starter-blog-grommet/',
+  title: 'EEOE',
+  description: 'EOEEなブログです。',
+  siteUrl: 'https://eoee-blog.netlify.app/',
   footerText:
-    '**2018**<br><br>Go here: site-config.js, and replace this text with your own', // You can use Markdown markup here
+    '©　2020　EOEE　<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />', // You can use Markdown markup here
 
   // Blog Author Info:
-  author: 'Ivan Ganev',
+  author: 'eryeden',
   authorImage:
-    'https://pbs.twimg.com/profile_images/986603715732934656/7A4Nt68k_400x400.jpg',
+    'https://avatars2.githubusercontent.com/u/4968978?s=460&u=9f5b8d3ffdf8e95d3f3189864ad6fe9fdc5f57f9&v=4',
   authorBio:
-    "Hello, I'm Ivan Ganev and I made this blog starter for Gatsby js using UI Grommet v2. <br><br>Repo of this starter: [github.com/ganevru/gatsby-starter-blog-grommet](https://github.com/ganevru/gatsby-starter-blog-grommet) <br><br>Go here: site-config.js, and replace this text with your own", // You can use Markdown markup here
+    "こんにちは。eryedenです。ブログ作ってみました。", // You can use Markdown markup here
   social: {
-    twitter: 'ganevru',
-    github: 'ganevru',
-    reddit: 'ganevru'
+    github: 'eryeden',
+    twitter: 'pri_robo',
   },
 
   // Services:
@@ -26,7 +25,7 @@ module.exports = {
   googleAnalyticsGlobalSiteTag: process.env.GOOGLE_GLOBAL_SITE_TAG,
 
   // Site Style:
-  lightTheme: 'grommet', // grommet | dark | base | dxc | aruba
+  lightTheme: 'base', // grommet | dark | base | dxc | aruba
   // leave darkTheme blank if you don’t need a theme switch
   darkTheme: 'dark', // '' | grommet | dark | base | dxc | aruba
   font: '', // Roboto
