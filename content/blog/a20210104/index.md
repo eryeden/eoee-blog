@@ -1,8 +1,22 @@
 ---
-title: Hello World
-date: '2015-05-01T22:12:03.284Z'
-cover: './building.jpg'
+title: first-content
+date: '2018-09-01T22:12:03.284Z'
 ---
+
+This is a test content. $a + b + c$.
+
+$$
+\sum_{a}{a + b} = Z
+\boldsymbol{a}
+\begin{bmatrix}
+    a + b\\
+    Z
+\end{bmatrix}
+$$
+
+$
+a + b + c
+$
 
 This is my first post on my new fake blog! How exciting!
 
@@ -18,3 +32,5 @@ Oh, and here's a great quote from this Wikipedia on
 > wrapped in plastic, and vacuum packed. From the salt curing process, the
 > salted duck eggs have a briny aroma, a gelatin-like egg white and a
 > firm-textured, round yolk that is bright orange-red in color.
+
+

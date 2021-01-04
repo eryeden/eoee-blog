@@ -8,6 +8,8 @@ import Helmet from 'react-helmet';
 import Layout from '../components/Layout';
 
 import 'katex/dist/katex.min.css';
+import "prismjs/themes/prism.css"
+
 
 
 interface BlogPostProps {
@@ -63,8 +65,8 @@ const blogPost = ({ data, pageContext: { previous, next } }: BlogPostProps) => {
                     </Box>
                   </Box>
                 ) : (
-                  ''
-                )}
+                    ''
+                  )}
 
                 <Box pad={{ horizontal: 'medium' }}>
                   <Heading
