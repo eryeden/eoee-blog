@@ -5,11 +5,17 @@ cover: './favicon.png'
 ---
 
 初ブログ作ってみました。構成はGatsby + Netlifyです。
-一つ以上の記事にCartイメージを設定しないとエラーが出ました。ひとまず仮のカードを設定しています。
+一つ以上の記事カードイメージを設定しないとエラーが出ました。ひとまず仮のカードを設定しています。
 
-```c
-#include <stdop.h>
+### 以下サンプル
+
+```cpp
+#include <iostream>
 int main(){
-    int main;
+    int a,b
 }
 ```
+
+$$
+a + b + c = d
+$$
