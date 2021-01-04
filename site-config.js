@@ -22,7 +22,7 @@ module.exports = {
   },
 
   // Services:
-  googleAnalyticsTrackingId: "G-ZS2THWY44N",
+  googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
 
   // Site Style:
   lightTheme: 'grommet', // grommet | dark | base | dxc | aruba
