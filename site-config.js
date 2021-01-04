@@ -23,6 +23,7 @@ module.exports = {
 
   // Services:
   googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+  googleAnalyticsGlobalSiteTag: process.env.GOOGLE_GLOBAL_SITE_TAG,
 
   // Site Style:
   lightTheme: 'grommet', // grommet | dark | base | dxc | aruba
