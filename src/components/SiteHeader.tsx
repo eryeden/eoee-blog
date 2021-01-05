@@ -1,12 +1,17 @@
 import { Link } from 'gatsby';
-import { Box, Heading, Text } from 'grommet';
+import { Box, Heading, Text, Header, Grid } from 'grommet';
 import * as React from 'react';
 
 import siteConfig from '../../site-config';
 
-export default () => (
-  <header>
-    <Box margin="small">
+import CardProfile from './CardProfile';
+import LightSwitch from './LightSwitch';
+
+export default (props) => (
+
+
+  <Header background="brand">
+    <Box>
       <Link
         style={{
           boxShadow: 'none',
@@ -22,5 +27,16 @@ export default () => (
         {siteConfig.description}
       </Text>
     </Box>
-  </header>
+
+    <Box>
+      {props.siteConfig.darkTheme && props.siteConfig.darkTheme !== '' ? (
+        <>
+          <LightSwitch onClick={props.themeSwitch} themeType={props.themeType} />
+        </>
+      ) : (
+          <></>
+        )}
+    </Box>
+  </Header>
+
 );

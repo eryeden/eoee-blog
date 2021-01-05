@@ -17,11 +17,11 @@ export default (props) => (
         }}
         elevation="small"
       >
-        <Actions size="medium" />
+        <Actions size="small" />
         <Text
           margin={{ horizontal: '6px' }}
           color="text"
-          size="large"
+          size="xsmall"
           weight="bold"
         >
           {props.themeType === 'dark'
