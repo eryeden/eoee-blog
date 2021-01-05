@@ -14,6 +14,7 @@ import siteTheme from '../site-theme';
 import SiteFooter from './SiteFooter';
 import SiteHeader from './SiteHeader';
 import Sidebar from './Sidebar';
+import ProfileFooter from './SiteProfileFooter';
 
 const GlobalStyle = createGlobalStyle`
   img {
@@ -55,32 +56,27 @@ const Theme = ({ children, themeType, themeSwitch }) => (
       <GlobalStyle />
       <Box direction="column" align="center">
         <Box width="xlarge">
-          <SiteHeader />
+          <SiteHeader 
+            siteConfig={siteConfig}
+            themeSwitch={themeSwitch}
+            themeType={themeType}
+            />
           <main>
             <StickyContainer>
               <Box direction="row-responsive">
                 <Box basis="large" flex="grow" direction="row-responsive">
                   {children}
                 </Box>
-                <Box basis="medium">
-                  <Sticky>
-                    {({ style }) => (
-                      <aside style={style}>
-                        <Sidebar
-                          siteConfig={siteConfig}
-                          themeSwitch={themeSwitch}
-                          themeType={themeType}
-                        />
-                      </aside>
-                    )}
-                  </Sticky>
-                </Box>
               </Box>
             </StickyContainer>
           </main>
         </Box>
       </Box>
-      <SiteFooter />
+      <ProfileFooter
+        siteConfig={siteConfig}
+        themeSwitch={themeSwitch}
+        themeType={themeType}
+      />
     </Grommet>
   </Grommet>
 );
