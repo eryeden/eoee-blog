@@ -3,21 +3,19 @@ import { Github, Reddit, Twitter } from 'grommet-icons';
 import * as React from 'react';
 
 import siteConfig from '../../site-config';
-import LightSwitch from './LightSwitch';
 
 
 export default (props) => (
   <div>
     <Box
-      round="small"
-      pad="small"
-      margin="small"
-      border={true}
+      border={false}
       wrap={true}
-      overflow="hidden"
-
-
-      
+      alignContent="center"
+      pad="small"
+      as="footer"
+      justify="between"
+      flex={false}
+      background="brand"
     >
       <Box direction="row" >
         <Box
@@ -26,7 +24,6 @@ export default (props) => (
           height="xsmall"
           width="xsmall"
           overflow="hidden"
-
         >
           <Image
             fit="cover"
@@ -74,6 +71,11 @@ export default (props) => (
             <Markdown>{siteConfig.authorBio}</Markdown>
           </Text>
         </Box>
+      </Box>
+      <Box align="center">
+        <Text color="text">
+          <Markdown>{siteConfig.footerText}</Markdown>
+        </Text>
       </Box>
     </Box>
   </div>

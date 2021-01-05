@@ -77,7 +77,6 @@ const Theme = ({ children, themeType, themeSwitch }) => (
         themeSwitch={themeSwitch}
         themeType={themeType}
       />
-      <SiteFooter />
     </Grommet>
   </Grommet>
 );

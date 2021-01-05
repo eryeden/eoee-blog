@@ -3,7 +3,7 @@ module.exports = {
   // Change information to your own:
   //
   // Site Info:
-  title: 'EEOE',
+  title: 'EOEE',
   description: 'EOEEなブログです。',
   siteUrl: 'https://eoee-blog.netlify.app/',
   footerText:
