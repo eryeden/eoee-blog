@@ -29,4 +29,6 @@ ntl dev
 ```
 
 ## LICENSE
-See [LICENSE](./LICENSE).
+- Contents under [content/blog](content/blog): 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />
+- Any other contents: MIT License.
